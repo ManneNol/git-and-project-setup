@@ -9,10 +9,11 @@
 
 ## Git
 Git är en source code manager som vi ofta använder i vår vardag när vi arbetar
-med kod.
+med kod. 
 
 ### Läs mer
 - [Hur git ser på filer](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+- [Grundläggande vim kommandon för git commit](TODO(manuel): lägg till länk här)
 
 ### Clone 
 givet att jag är i ~/repos/
