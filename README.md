@@ -36,8 +36,8 @@ Git pull är två kommandon i ett.
 <repo-name> = git-and-project-setup
 [local-folder-name] = lektion-git-del-2
 
-git remote add <namn-på-remote> git@<git-server-domain>:<repo-owner>/<repo-name>
-git remote add origin git@github.com:mannenol/git-and-project-setup
+git remote add <namn-på-remote> git@<git-server-domain>:<repo-owner>/<repo-name>.git
+git remote add origin git@github.com:mannenol/git-and-project-setup.git
 
 git clone git@github.com:<repo-owner>/<repo-name>.git [local-folder-name]
 git clone git@github.com:mannenol/git-and-project-setup.git
