@@ -31,17 +31,19 @@ Git pull är två kommandon i ett.
 
 #### Tips and tricks
 
+**Variabelnamn och deras exempelvärden:**
 - `<namn-på-remote>` = origin
 - `<git-server-domain>` = github.com
 - `<repo-owner>` = manuelnoltorp
 - `<repo-name>` = git-and-project-setup
 - `[local-folder-name]` = lektion-git-del-2
 
-`git remote add <namn-på-remote> git@<git-server-domain>:<repo-owner>/<repo-name>.git`
-`git remote add origin git@github.com:mannenol/git-and-project-setup.git`
-
-`git clone git@github.com:<repo-owner>/<repo-name>.git [local-folder-name]`
-`git clone git@github.com:mannenol/git-and-project-setup.git`
+**Exempel på remote och clone:**
+- `git remote add <namn-på-remote> git@<git-server-domain>:<repo-owner>/<repo-name>.git`
+- `git remote add origin git@github.com:mannenol/git-and-project-setup.git`
+ 
+- `git clone git@github.com:<repo-owner>/<repo-name>.git [local-folder-name]`
+- `git clone git@github.com:mannenol/git-and-project-setup.git`
 
 ### Githubs relation till Git
 Git är en SCM (source control manager) som kan användas lokalst eller i ett
